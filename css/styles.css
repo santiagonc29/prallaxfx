@@ -209,6 +209,41 @@ body {
 .cont-img img#mountains_front {
   z-index: 10;
 }
+/* fin images */
+
+.conTxt {
+  visibility: hidden;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  animation-name: x;
+  animation: ease-out;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 0%;
+    transform: translateY(100);
+  }
+}
 
 .txt {
   position: absolute;
